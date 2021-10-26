@@ -5,7 +5,26 @@
     <title>My Website</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
+
+
+    <div id="main-content">
+      <h1>Dictionary</h1>
+  
+      <form id="create-task-form" action="" method="POST">
+        <label for="word-definition">Definition:</label>
+        <input type="text" id="word_description" name="word-description" placeholder="word">
+        <input type="submit" value="Get Definition">
+      </form>
+  
+      <div id="list">
+        <h1>Definitions</h1>
+        <ul id="definitions">
+        </ul>
+      </div>
+  
+      <script src="./src/index.js"></script>
+    </div>
+
+
   </body>
 </html>
