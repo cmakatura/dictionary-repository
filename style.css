@@ -80,3 +80,30 @@ div.form{
   font-family: "Optima", sans-serif;
 }
 
+div.content {
+  text-align: left;
+}
+
+footer {
+  margin-top: 300px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+
+#footer-content{
+  background-color:lightslategray;
+  height: 50px;
+}
+div.footer-content {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
