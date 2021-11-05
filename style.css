@@ -4,3 +4,46 @@ html {
   
   font-family: "Optima", sans-serif;
 }
+
+.w3-sidebar{
+  height:100%;
+  width:200px;
+  background-color:#fff;
+  position:fixed!important;
+  z-index:1;
+  overflow:auto
+}
+
+.w3-bar-item{
+  width:100%;
+  display:block;
+  padding:8px 16px;
+  text-align:center;
+  border:none;
+  white-space:normal;
+  float:none;
+  outline:0
+}
+
+.w3-container,.w3-panel{
+  margin: 10px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 15px 20px 18px 18px;
+    border-radius: 5px;
+    
+}
+
+.w3-panel{
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{
+  color:#000!important;background-color:#f1f1f1!important
+}
+
+.w3-grey,.w3-hover-grey:hover{
+  color:#fff!important;background-color:lightslategray!important
+}
+
