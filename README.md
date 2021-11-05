@@ -9,10 +9,6 @@ How to use:
 - Save will add definition to Saved Searches side bar
 - Clear will clear defintion from list
 
-
-
-
-
 Sources:
-https://dictionaryapi.dev/
-https://www.w3schools.com/w3css/4/w3.css
+- https://dictionaryapi.dev/
+- https://www.w3schools.com/w3css/4/w3.css
