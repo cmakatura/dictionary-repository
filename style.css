@@ -107,3 +107,14 @@ div.footer-content {
   padding-bottom: 10px;
 }
 
+button#clear{
+  background-color:lightslategray;
+  color: white;
+  font-family: "Optima", sans-serif;
+}
+
+button#save{
+  background-color:lightslategray;
+  color: white;
+  font-family: "Optima", sans-serif;
+}
