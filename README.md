@@ -1,6 +1,6 @@
 # Dictionary Application
 
-This is a dictionary application used to look up words and get a definition in return. You can save your searched defintions to the sidebar.
+This is a dictionary application used to look up words and get a definition in return. You can save your searched defintions to the sidebar by clicking save and delete it by clicking clear.
 
 How to use:
 - Type word into search box
