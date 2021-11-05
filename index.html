@@ -2,29 +2,40 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>My Website</title>
+    <title>Dictionary</title>
+    
   </head>
   <body>
 
-
-    <div id="main-content">
-      <h1>Dictionary</h1>
-  
-      <form id="create-task-form" action="" method="POST">
-        <label for="word-definition">Definition:</label>
-        <input type="text" id="word_description" name="word-description" placeholder="word">
-        <input type="submit" value="Get Definition">
-      </form>
-  
-      <div id="list">
-        <h1>Definitions</h1>
-        <ul id="definitions">
-        </ul>
-      </div>
-  
-      <script src="./src/index.js"></script>
+<!-- Sidebar -->
+    <div id = "sidebar" class="w3-sidebar w3-light-grey" style="width:25%">
+      <h3 class="w3-bar-item">Saved Searches</h3>
     </div>
 
+    
 
+    <!-- Page Content -->
+    <div id="main-content" style="margin-left:26%">
+
+      <div class="w3-container w3-grey" >
+        <h1>Dictionary</h1>
+      </div>
+      <div class="form">
+        <form id="search-word-form" action="" method="POST">
+          <label for="word-definition">Define:</label>
+          <input type="text" id="word_description" name="word-description" placeholder="word">
+          <input type="submit" value="Get Definition">
+        </form>
+      </div>
+        <ul id="list" class= "word-container">
+          <h2>Definitions</h2>
+        </ul>
+
+
+        
+        
+    
+      <script src="./src/index.js"></script>
+    </div>
   </body>
 </html>
