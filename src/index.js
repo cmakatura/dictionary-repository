@@ -24,35 +24,39 @@ document.addEventListener("DOMContentLoaded", () => {
     let definition = document.createElement('li')
     definition.className = "word-container"
     definition.innerHTML = `
-    <div class = "content">
-      <h4>${word[0].word}</h4>
-      <p>${word[0].meanings[0].definitions[0].definition}</p>
+      <div class = "content">
+        <h4>${word[0].word}</h4>
+        <p>${word[0].meanings[0].definitions[0].definition}</p>
       </div>
       <div>
-      <button class="btn" id = "clear">Clear</button>
-      <button class="btn" id = "save">Save</button>
-    </div>
+        <button class="btn" id = "clear">Clear</button>
+        <button class="btn" id = "save">Save</button>
+      </div>
     `
     definition.querySelector('#save').addEventListener('click', () => {
     
-      let savedSearch = document.createElement('li')
+    let savedSearch = document.createElement('li')
     savedSearch.className = "word-container"
     savedSearch.innerHTML = `
-    <div class = "saved-content">
-      <p>${word[0].word}: ${word[0].meanings[0].definitions[0].definition}</p>
+      <div class = "saved-content">
+        <p>${word[0].word}: ${word[0].meanings[0].definitions[0].definition}</p>
       </div>
       `
-      //Save button appends definition to sidebar
-      document.querySelector('#sidebar').appendChild(savedSearch)
+    //Save button appends definition to sidebar
+    document.querySelector('#sidebar').appendChild(savedSearch)
     
     })
+
+
     //clear button will delete definition
     definition.querySelector('#clear').addEventListener('click', () => {
-      definition.remove()
+      definition.remove();
     })
 
     //append container to list of definitions
     document.querySelector('#list').appendChild(definition)
+
+
     };
     
   
