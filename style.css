@@ -1,9 +1,10 @@
 html {
   height: 100%;
   width: 100%;
-  
   font-family: "Optima", sans-serif;
 }
+
+/* ------ Sidebar ------ */
 
 .w3-sidebar{
   height:100%;
@@ -25,13 +26,14 @@ html {
   outline:0
 }
 
+/* ------ Main Content ------ */
+
 .w3-container,.w3-panel{
   margin: 10px;
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
     padding: 15px 20px 18px 18px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
 }
 
 .w3-panel{
@@ -55,9 +57,14 @@ html {
     border: 1px solid #333;
     background: rgba(255, 255, 255, 0.75);
     padding: 15px 20px 18px 18px;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
+
+div.content {
+  text-align: left;
+}
+
+/* ------ Form ------ */
 
 #search-word-form{
   text-align: center;
@@ -66,8 +73,7 @@ html {
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  
+  border-radius: 5px; 
 }
 
 div.form{
@@ -80,32 +86,8 @@ div.form{
   font-family: "Optima", sans-serif;
 }
 
-div.content {
-  text-align: left;
-}
 
-footer {
-  margin-top: 300px;
-    border: 1px solid #333;
-    background: rgba(255, 255, 255, 0.75);
-    border-radius: 5px;
-}
-
-
-#footer-content{
-  background-color:lightslategray;
-  height: 50px;
-}
-div.footer-content {
-  background-color: lightslategray;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+/* ------ Buttons ------ */
 
 button#clear{
   background-color:lightslategray;
@@ -118,3 +100,30 @@ button#save{
   color: white;
   font-family: "Optima", sans-serif;
 }
+
+
+/* ------ Footer ------ */
+
+footer {
+  margin-top: 300px;
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+}
+
+#footer-content{
+  background-color:lightslategray;
+  height: 50px;
+}
+
+div.footer-content {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
