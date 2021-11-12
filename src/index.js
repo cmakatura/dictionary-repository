@@ -32,6 +32,7 @@ function buildList(word){
       <button class="btn" id = "clear">Clear</button>
       <button class="btn" id = "save">Save</button>
     </div>
+    
   `
   definition.querySelector('#save').addEventListener('click', () => {
     
@@ -58,6 +59,36 @@ function buildList(word){
 
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Possible additional features
+/*
+const EMPTY_HEART = '♡'
+const FULL_HEART = '♥'
+
+document.addEventListener("click", (event) =>{
+  if(event.target.textContent === EMPTY_HEART){
+    event.target.classList.add('activated-heart')
+    event.target.textContent = FULL_HEART
+    } else {
+    event.target.classList.remove('activated-heart')
+    event.target.textContent = EMPTY_HEART
+    }
+  })
+  */
     
   
   
